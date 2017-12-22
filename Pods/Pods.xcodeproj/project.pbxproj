@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03A0FD2647CF93C2F3730A55B5809798 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3B8FECA65E995CE1EA4C1AB1D40B4692 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3C16D697E2DFF987374B7623CA84F52A /* Pods-GeoPalTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F832D3299A2550992701682727AADDE /* Pods-GeoPalTests-dummy.m */; };
+		53D5164DA1850236E2A63E94CFE8B7F4 /* Pods-GeoPal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEB296CD970132D8E9A8EE3DFA1A545 /* Pods-GeoPal-dummy.m */; };
+		57CB2AFF5C92A9D6CDE4872B16E8C75E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		69762E2C21E6188ABB8C7223A3AF8F04 /* UISearchBar-Blocks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1EFBECF1E2CAB7F26F42DF44094384C /* UISearchBar-Blocks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ABAB06102D506439652CAB23EAA38A1 /* UISearchBar+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E5A25CE3B4D37A07ED41A6E549C3DF7 /* UISearchBar+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B26EFB24DE9F86711BBDD9C89F51F61 /* Pods-GeoPal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9C1063319AC2ECD1D58E121F0AB804D /* Pods-GeoPal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD15EDD1848F45CF723803C4ACBD51BF /* UISearchBar+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = C41ADDE68A1BC2A2B60480EEF83F0BF3 /* UISearchBar+Blocks.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CC114B7F712DEF4A7DE298A29CF2D235 /* Pods-GeoPalTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C2FFCC7E60C1148842326B9BA0EA2A /* Pods-GeoPalTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F837A2502D7E9895344F3A3755EA82FF /* UISearchBar-Blocks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB0A7816A3F99A0E632F3A6BF479696 /* UISearchBar-Blocks-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91088A6F5C97F114E76734830CE271F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13DC37C12F0CD3515BF459F1D9647D0B;
+			remoteInfo = "UISearchBar-Blocks";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04712FCF582CE21F0F8F93AE33DDD2C1 /* Pods-GeoPalTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoPalTests-frameworks.sh"; sourceTree = "<group>"; };
+		057A305E60C1C7290515D3AF62656011 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05EEE432801BEEFBB2A7A2A68C85B46D /* Pods_GeoPalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GeoPalTests.framework; path = "Pods-GeoPalTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		142906141145FF2DC0E31CBEA3320C09 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		1B00D11247B57E7864BDAE430162B11B /* Pods-GeoPal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoPal.debug.xcconfig"; sourceTree = "<group>"; };
+		24E9A4EA098D52944EBF4976FA7D1322 /* Pods-GeoPalTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeoPalTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2DCB447EE9485896483616B786CA7EF8 /* Pods-GeoPalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoPalTests.release.xcconfig"; sourceTree = "<group>"; };
+		3BEEA65BF1092B9CBBD4058B90ADEE26 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AE8F6E1C69EDEB6F0FDEC7EC61B394A /* Pods-GeoPalTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GeoPalTests.modulemap"; sourceTree = "<group>"; };
+		517E80F68BC6E9F936E8DFFA2443447E /* Pods-GeoPalTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoPalTests-resources.sh"; sourceTree = "<group>"; };
+		55C84E838C9871835BFC8CB69C07A8EB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59CE943AB47681A085570C846E6E4892 /* Pods-GeoPal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoPal.release.xcconfig"; sourceTree = "<group>"; };
+		5C8B9F3FA86513D647A8AACDD3395BB2 /* Pods-GeoPalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoPalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CD928C5CC7110F010419C9DAA94BCB0 /* Pods_GeoPal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GeoPal.framework; path = "Pods-GeoPal.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5A25CE3B4D37A07ED41A6E549C3DF7 /* UISearchBar+Blocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISearchBar+Blocks.h"; path = "UISearchBar-Blocks/UISearchBar+Blocks.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		686EE1BC1A158E1F9C7254863A7C5A0A /* Pods-GeoPal-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeoPal-acknowledgements.markdown"; sourceTree = "<group>"; };
+		69C2FFCC7E60C1148842326B9BA0EA2A /* Pods-GeoPalTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GeoPalTests-umbrella.h"; sourceTree = "<group>"; };
+		6F832D3299A2550992701682727AADDE /* Pods-GeoPalTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeoPalTests-dummy.m"; sourceTree = "<group>"; };
+		8814A2A29C23522A3F67D987E978AABE /* Pods-GeoPal-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoPal-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F93583ECD41063923F3C9D470DD8436 /* UISearchBar_Blocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UISearchBar_Blocks.framework; path = "UISearchBar-Blocks.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A664559697EA544C047BC8772F5E5A83 /* UISearchBar-Blocks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UISearchBar-Blocks.xcconfig"; sourceTree = "<group>"; };
+		A9C1063319AC2ECD1D58E121F0AB804D /* Pods-GeoPal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GeoPal-umbrella.h"; sourceTree = "<group>"; };
+		AEEB296CD970132D8E9A8EE3DFA1A545 /* Pods-GeoPal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeoPal-dummy.m"; sourceTree = "<group>"; };
+		AF98C3130DFDCEF6D8C869A6E46ABB2F /* Pods-GeoPal-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoPal-frameworks.sh"; sourceTree = "<group>"; };
+		AFB0A7816A3F99A0E632F3A6BF479696 /* UISearchBar-Blocks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar-Blocks-dummy.m"; sourceTree = "<group>"; };
+		B1EFBECF1E2CAB7F26F42DF44094384C /* UISearchBar-Blocks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UISearchBar-Blocks-umbrella.h"; sourceTree = "<group>"; };
+		C41ADDE68A1BC2A2B60480EEF83F0BF3 /* UISearchBar+Blocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISearchBar+Blocks.m"; path = "UISearchBar-Blocks/UISearchBar+Blocks.m"; sourceTree = "<group>"; };
+		C91D697D5B7D42BAE8C68D6C5F614197 /* UISearchBar-Blocks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UISearchBar-Blocks-prefix.pch"; sourceTree = "<group>"; };
+		D79A6F933206785F885835A08C06EE89 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		D8863C6D414FA6D3E2324999D6D84936 /* UISearchBar-Blocks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "UISearchBar-Blocks.modulemap"; sourceTree = "<group>"; };
+		E7A60D63826A2D53B3003E73BF888E07 /* Pods-GeoPalTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoPalTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED131DC72CC734A275DA8B7CFB6CCAAB /* Pods-GeoPal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GeoPal.modulemap"; sourceTree = "<group>"; };
+		EE391B9AA036F5A69C2F43413CC7721B /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		FAB411335728093CDE45633B259B33FE /* Pods-GeoPal-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoPal-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F186801510866FAE2914068F321E6E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CB2AFF5C92A9D6CDE4872B16E8C75E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B9A498A14F0E6956D5570DFB9F5C4BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8FECA65E995CE1EA4C1AB1D40B4692 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ADC6642B819210E27D101178A34BD3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A0FD2647CF93C2F3730A55B5809798 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03A0AE8B62E34EEAF07BDA2C27055087 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				67426B4E1C63EB0780A7AB3BBD09C9ED /* Frameworks */,
+				6C7BB17A99F2BBBF2AF5D6417BF9D0CA /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		4216EDBE1D1260BFDD615ED6334EA840 /* UISearchBar-Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A25CE3B4D37A07ED41A6E549C3DF7 /* UISearchBar+Blocks.h */,
+				C41ADDE68A1BC2A2B60480EEF83F0BF3 /* UISearchBar+Blocks.m */,
+				53487D584B46C528DDCDE1A6B91B79AA /* Support Files */,
+			);
+			name = "UISearchBar-Blocks";
+			path = "UISearchBar-Blocks";
+			sourceTree = "<group>";
+		};
+		455E06E12BACA4880401546529EE805C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E760428406A1C468D5260CBD861B61BA /* Pods-GeoPal */,
+				F8A9C3237294E77D3D67B881C0CA6B14 /* Pods-GeoPalTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		53487D584B46C528DDCDE1A6B91B79AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BEEA65BF1092B9CBBD4058B90ADEE26 /* Info.plist */,
+				D8863C6D414FA6D3E2324999D6D84936 /* UISearchBar-Blocks.modulemap */,
+				A664559697EA544C047BC8772F5E5A83 /* UISearchBar-Blocks.xcconfig */,
+				AFB0A7816A3F99A0E632F3A6BF479696 /* UISearchBar-Blocks-dummy.m */,
+				C91D697D5B7D42BAE8C68D6C5F614197 /* UISearchBar-Blocks-prefix.pch */,
+				B1EFBECF1E2CAB7F26F42DF44094384C /* UISearchBar-Blocks-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UISearchBar-Blocks";
+			sourceTree = "<group>";
+		};
+		567F9609EB89BEBFFC868B54059E8606 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CD928C5CC7110F010419C9DAA94BCB0 /* Pods_GeoPal.framework */,
+				05EEE432801BEEFBB2A7A2A68C85B46D /* Pods_GeoPalTests.framework */,
+				9F93583ECD41063923F3C9D470DD8436 /* UISearchBar_Blocks.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67426B4E1C63EB0780A7AB3BBD09C9ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D79A6F933206785F885835A08C06EE89 /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C7BB17A99F2BBBF2AF5D6417BF9D0CA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE391B9AA036F5A69C2F43413CC7721B /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C12219839E86005F1F82441A1C0FB8BA /* Pods */,
+				567F9609EB89BEBFFC868B54059E8606 /* Products */,
+				455E06E12BACA4880401546529EE805C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82280005552CD58735669C6811D2DADB /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				BAD18381E30BB2643CDDE92999EA41D6 /* Base */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		96E852A3578F381AF9D160F7899CE0B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				142906141145FF2DC0E31CBEA3320C09 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAD18381E30BB2643CDDE92999EA41D6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				96E852A3578F381AF9D160F7899CE0B5 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C12219839E86005F1F82441A1C0FB8BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82280005552CD58735669C6811D2DADB /* GoogleMaps */,
+				03A0AE8B62E34EEAF07BDA2C27055087 /* GooglePlaces */,
+				4216EDBE1D1260BFDD615ED6334EA840 /* UISearchBar-Blocks */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E760428406A1C468D5260CBD861B61BA /* Pods-GeoPal */ = {
+			isa = PBXGroup;
+			children = (
+				057A305E60C1C7290515D3AF62656011 /* Info.plist */,
+				ED131DC72CC734A275DA8B7CFB6CCAAB /* Pods-GeoPal.modulemap */,
+				686EE1BC1A158E1F9C7254863A7C5A0A /* Pods-GeoPal-acknowledgements.markdown */,
+				8814A2A29C23522A3F67D987E978AABE /* Pods-GeoPal-acknowledgements.plist */,
+				AEEB296CD970132D8E9A8EE3DFA1A545 /* Pods-GeoPal-dummy.m */,
+				AF98C3130DFDCEF6D8C869A6E46ABB2F /* Pods-GeoPal-frameworks.sh */,
+				FAB411335728093CDE45633B259B33FE /* Pods-GeoPal-resources.sh */,
+				A9C1063319AC2ECD1D58E121F0AB804D /* Pods-GeoPal-umbrella.h */,
+				1B00D11247B57E7864BDAE430162B11B /* Pods-GeoPal.debug.xcconfig */,
+				59CE943AB47681A085570C846E6E4892 /* Pods-GeoPal.release.xcconfig */,
+			);
+			name = "Pods-GeoPal";
+			path = "Target Support Files/Pods-GeoPal";
+			sourceTree = "<group>";
+		};
+		F8A9C3237294E77D3D67B881C0CA6B14 /* Pods-GeoPalTests */ = {
+			isa = PBXGroup;
+			children = (
+				55C84E838C9871835BFC8CB69C07A8EB /* Info.plist */,
+				4AE8F6E1C69EDEB6F0FDEC7EC61B394A /* Pods-GeoPalTests.modulemap */,
+				24E9A4EA098D52944EBF4976FA7D1322 /* Pods-GeoPalTests-acknowledgements.markdown */,
+				E7A60D63826A2D53B3003E73BF888E07 /* Pods-GeoPalTests-acknowledgements.plist */,
+				6F832D3299A2550992701682727AADDE /* Pods-GeoPalTests-dummy.m */,
+				04712FCF582CE21F0F8F93AE33DDD2C1 /* Pods-GeoPalTests-frameworks.sh */,
+				517E80F68BC6E9F936E8DFFA2443447E /* Pods-GeoPalTests-resources.sh */,
+				69C2FFCC7E60C1148842326B9BA0EA2A /* Pods-GeoPalTests-umbrella.h */,
+				5C8B9F3FA86513D647A8AACDD3395BB2 /* Pods-GeoPalTests.debug.xcconfig */,
+				2DCB447EE9485896483616B786CA7EF8 /* Pods-GeoPalTests.release.xcconfig */,
+			);
+			name = "Pods-GeoPalTests";
+			path = "Target Support Files/Pods-GeoPalTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0234855E56FD0272B336320B781AC328 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B26EFB24DE9F86711BBDD9C89F51F61 /* Pods-GeoPal-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220E96331A11E1915E9A98C4D970B1A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABAB06102D506439652CAB23EAA38A1 /* UISearchBar+Blocks.h in Headers */,
+				69762E2C21E6188ABB8C7223A3AF8F04 /* UISearchBar-Blocks-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EA9B557DCA97F8C3F517758A7423FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC114B7F712DEF4A7DE298A29CF2D235 /* Pods-GeoPalTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03339598AEB986C73F44C0A580D74348 /* Pods-GeoPalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1594CF7830CC05401C40649322DD9A5 /* Build configuration list for PBXNativeTarget "Pods-GeoPalTests" */;
+			buildPhases = (
+				656E176C52E745B80265EED45EA0BB60 /* Sources */,
+				3F186801510866FAE2914068F321E6E3 /* Frameworks */,
+				A7EA9B557DCA97F8C3F517758A7423FF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GeoPalTests";
+			productName = "Pods-GeoPalTests";
+			productReference = 05EEE432801BEEFBB2A7A2A68C85B46D /* Pods_GeoPalTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		13DC37C12F0CD3515BF459F1D9647D0B /* UISearchBar-Blocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40EEA9947E237FED22C9DDB15A1D1FC8 /* Build configuration list for PBXNativeTarget "UISearchBar-Blocks" */;
+			buildPhases = (
+				F0AED7F9E3A26C1764CF7D4F1FF463F2 /* Sources */,
+				5B9A498A14F0E6956D5570DFB9F5C4BD /* Frameworks */,
+				220E96331A11E1915E9A98C4D970B1A1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UISearchBar-Blocks";
+			productName = "UISearchBar-Blocks";
+			productReference = 9F93583ECD41063923F3C9D470DD8436 /* UISearchBar_Blocks.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A16FEA4C377DC8D6C093B9F6D8C96507 /* Pods-GeoPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46857FB2BD0A2C005B01229903FD5EB0 /* Build configuration list for PBXNativeTarget "Pods-GeoPal" */;
+			buildPhases = (
+				21C891E67ADCE60BBD0EB20F97C9EECA /* Sources */,
+				9ADC6642B819210E27D101178A34BD3B /* Frameworks */,
+				0234855E56FD0272B336320B781AC328 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4083B3180B798142965A8FAD2C046455 /* PBXTargetDependency */,
+			);
+			name = "Pods-GeoPal";
+			productName = "Pods-GeoPal";
+			productReference = 5CD928C5CC7110F010419C9DAA94BCB0 /* Pods_GeoPal.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 567F9609EB89BEBFFC868B54059E8606 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A16FEA4C377DC8D6C093B9F6D8C96507 /* Pods-GeoPal */,
+				03339598AEB986C73F44C0A580D74348 /* Pods-GeoPalTests */,
+				13DC37C12F0CD3515BF459F1D9647D0B /* UISearchBar-Blocks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21C891E67ADCE60BBD0EB20F97C9EECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D5164DA1850236E2A63E94CFE8B7F4 /* Pods-GeoPal-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656E176C52E745B80265EED45EA0BB60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C16D697E2DFF987374B7623CA84F52A /* Pods-GeoPalTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0AED7F9E3A26C1764CF7D4F1FF463F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD15EDD1848F45CF723803C4ACBD51BF /* UISearchBar+Blocks.m in Sources */,
+				F837A2502D7E9895344F3A3755EA82FF /* UISearchBar-Blocks-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4083B3180B798142965A8FAD2C046455 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UISearchBar-Blocks";
+			target = 13DC37C12F0CD3515BF459F1D9647D0B /* UISearchBar-Blocks */;
+			targetProxy = 91088A6F5C97F114E76734830CE271F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06A00C55A9A7461206ABBCEE97B58DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59CE943AB47681A085570C846E6E4892 /* Pods-GeoPal.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoPal/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoPal/Pods-GeoPal.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GeoPal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0F53ACBB4057A44AFFFB59D1A28B90D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B00D11247B57E7864BDAE430162B11B /* Pods-GeoPal.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoPal/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoPal/Pods-GeoPal.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GeoPal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34687DDDA0B38BF55E0406E5C9B31C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C8B9F3FA86513D647A8AACDD3395BB2 /* Pods-GeoPalTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoPalTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoPalTests/Pods-GeoPalTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GeoPalTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		652AB462716C2859B9AB960050ECC180 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A664559697EA544C047BC8772F5E5A83 /* UISearchBar-Blocks.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UISearchBar-Blocks/UISearchBar-Blocks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UISearchBar-Blocks/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UISearchBar-Blocks/UISearchBar-Blocks.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UISearchBar_Blocks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA0978381D26CCC23D641FAE6CB96BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DCB447EE9485896483616B786CA7EF8 /* Pods-GeoPalTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoPalTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoPalTests/Pods-GeoPalTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GeoPalTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEE53F00CBFBB7FEF79B56BDBE73E6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A664559697EA544C047BC8772F5E5A83 /* UISearchBar-Blocks.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UISearchBar-Blocks/UISearchBar-Blocks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UISearchBar-Blocks/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UISearchBar-Blocks/UISearchBar-Blocks.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UISearchBar_Blocks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40EEA9947E237FED22C9DDB15A1D1FC8 /* Build configuration list for PBXNativeTarget "UISearchBar-Blocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE53F00CBFBB7FEF79B56BDBE73E6CF /* Debug */,
+				652AB462716C2859B9AB960050ECC180 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46857FB2BD0A2C005B01229903FD5EB0 /* Build configuration list for PBXNativeTarget "Pods-GeoPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F53ACBB4057A44AFFFB59D1A28B90D2 /* Debug */,
+				06A00C55A9A7461206ABBCEE97B58DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1594CF7830CC05401C40649322DD9A5 /* Build configuration list for PBXNativeTarget "Pods-GeoPalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34687DDDA0B38BF55E0406E5C9B31C26 /* Debug */,
+				AA0978381D26CCC23D641FAE6CB96BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,878 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50AFE8C543D161D5D4533104 /* Pods_GeoPal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC5028728E391223BAE137F /* Pods_GeoPal.framework */; };
+		B36EE6BC1FEC814C0098E3C0 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6721FEC814B0098E3C0 /* HistoryViewController.swift */; };
+		B36EE6BD1FEC814C0098E3C0 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6721FEC814B0098E3C0 /* HistoryViewController.swift */; };
+		B36EE6C61FEC814C0098E3C0 /* DefaultMapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6781FEC814C0098E3C0 /* DefaultMapInteractor.swift */; };
+		B36EE6C71FEC814C0098E3C0 /* DefaultMapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6781FEC814C0098E3C0 /* DefaultMapInteractor.swift */; };
+		B36EE6C81FEC814C0098E3C0 /* DefaultMapPresenter+SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6791FEC814C0098E3C0 /* DefaultMapPresenter+SearchBar.swift */; };
+		B36EE6CA1FEC814C0098E3C0 /* DefaultMapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE67A1FEC814C0098E3C0 /* DefaultMapPresenter.swift */; };
+		B36EE6CB1FEC814C0098E3C0 /* DefaultMapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE67A1FEC814C0098E3C0 /* DefaultMapPresenter.swift */; };
+		B36EE6D41FEC814C0098E3C0 /* DefaultMapSearchManager+UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6801FEC814C0098E3C0 /* DefaultMapSearchManager+UITableViewDataSource.swift */; };
+		B36EE6D51FEC814C0098E3C0 /* DefaultMapSearchManager+UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6801FEC814C0098E3C0 /* DefaultMapSearchManager+UITableViewDataSource.swift */; };
+		B36EE6D61FEC814C0098E3C0 /* DefaultMapSearchManager+UITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6811FEC814C0098E3C0 /* DefaultMapSearchManager+UITableViewDelegate.swift */; };
+		B36EE6D71FEC814C0098E3C0 /* DefaultMapSearchManager+UITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6811FEC814C0098E3C0 /* DefaultMapSearchManager+UITableViewDelegate.swift */; };
+		B36EE6D81FEC814C0098E3C0 /* DefaultMapSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6821FEC814C0098E3C0 /* DefaultMapSearchManager.swift */; };
+		B36EE6D91FEC814C0098E3C0 /* DefaultMapSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6821FEC814C0098E3C0 /* DefaultMapSearchManager.swift */; };
+		B36EE6DA1FEC814C0098E3C0 /* DefaultMapViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6831FEC814C0098E3C0 /* DefaultMapViewManager.swift */; };
+		B36EE6DB1FEC814C0098E3C0 /* DefaultMapViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6831FEC814C0098E3C0 /* DefaultMapViewManager.swift */; };
+		B36EE6DC1FEC814C0098E3C0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6841FEC814C0098E3C0 /* MapViewController.swift */; };
+		B36EE6DD1FEC814C0098E3C0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6841FEC814C0098E3C0 /* MapViewController.swift */; };
+		B36EE6E81FEC814C0098E3C0 /* MapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE68B1FEC814C0098E3C0 /* MapInteractor.swift */; };
+		B36EE6E91FEC814C0098E3C0 /* MapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE68B1FEC814C0098E3C0 /* MapInteractor.swift */; };
+		B36EE6EA1FEC814C0098E3C0 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE68C1FEC814C0098E3C0 /* MapPresenter.swift */; };
+		B36EE6EB1FEC814C0098E3C0 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE68C1FEC814C0098E3C0 /* MapPresenter.swift */; };
+		B36EE6EC1FEC814C0098E3C0 /* MapSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE68D1FEC814C0098E3C0 /* MapSearchManager.swift */; };
+		B36EE6ED1FEC814C0098E3C0 /* MapSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE68D1FEC814C0098E3C0 /* MapSearchManager.swift */; };
+		B36EE6EE1FEC814C0098E3C0 /* MapViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE68E1FEC814C0098E3C0 /* MapViewControllerProtocol.swift */; };
+		B36EE6EF1FEC814C0098E3C0 /* MapViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE68E1FEC814C0098E3C0 /* MapViewControllerProtocol.swift */; };
+		B36EE6F01FEC814C0098E3C0 /* MapViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE68F1FEC814C0098E3C0 /* MapViewManager.swift */; };
+		B36EE6F11FEC814C0098E3C0 /* MapViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE68F1FEC814C0098E3C0 /* MapViewManager.swift */; };
+		B36EE6F41FEC814C0098E3C0 /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6921FEC814C0098E3C0 /* PlaceViewController.swift */; };
+		B36EE6F51FEC814C0098E3C0 /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6921FEC814C0098E3C0 /* PlaceViewController.swift */; };
+		B36EE6F81FEC814C0098E3C0 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6951FEC814C0098E3C0 /* ContactViewController.swift */; };
+		B36EE6F91FEC814C0098E3C0 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6951FEC814C0098E3C0 /* ContactViewController.swift */; };
+		B36EE6FE1FEC814C0098E3C0 /* PlaceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE69A1FEC814C0098E3C0 /* PlaceEntity.swift */; };
+		B36EE6FF1FEC814C0098E3C0 /* PlaceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE69A1FEC814C0098E3C0 /* PlaceEntity.swift */; };
+		B36EE7001FEC814C0098E3C0 /* SimpleAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE69B1FEC814C0098E3C0 /* SimpleAnnotation.swift */; };
+		B36EE7011FEC814C0098E3C0 /* SimpleAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE69B1FEC814C0098E3C0 /* SimpleAnnotation.swift */; };
+		B36EE70C1FEC814C0098E3C0 /* BackupSandboxAPIKeysManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6A21FEC814C0098E3C0 /* BackupSandboxAPIKeysManager.swift */; };
+		B36EE70D1FEC814C0098E3C0 /* BackupSandboxAPIKeysManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6A21FEC814C0098E3C0 /* BackupSandboxAPIKeysManager.swift */; };
+		B36EE70E1FEC814C0098E3C0 /* GooglePlacesManager+GMSAutocompleteFetcherDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6A31FEC814C0098E3C0 /* GooglePlacesManager+GMSAutocompleteFetcherDelegate.swift */; };
+		B36EE70F1FEC814C0098E3C0 /* GooglePlacesManager+GMSAutocompleteFetcherDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6A31FEC814C0098E3C0 /* GooglePlacesManager+GMSAutocompleteFetcherDelegate.swift */; };
+		B36EE7101FEC814C0098E3C0 /* GooglePlacesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6A41FEC814C0098E3C0 /* GooglePlacesManager.swift */; };
+		B36EE7111FEC814C0098E3C0 /* GooglePlacesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6A41FEC814C0098E3C0 /* GooglePlacesManager.swift */; };
+		B36EE7121FEC814C0098E3C0 /* ManualDependencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6A51FEC814C0098E3C0 /* ManualDependencyManager.swift */; };
+		B36EE7131FEC814C0098E3C0 /* ManualDependencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6A51FEC814C0098E3C0 /* ManualDependencyManager.swift */; };
+		B36EE7141FEC814C0098E3C0 /* SandboxAPIKeysManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6A61FEC814C0098E3C0 /* SandboxAPIKeysManager.swift */; };
+		B36EE7151FEC814C0098E3C0 /* SandboxAPIKeysManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6A61FEC814C0098E3C0 /* SandboxAPIKeysManager.swift */; };
+		B36EE7281FEC814C0098E3C0 /* APIKeysManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6B11FEC814C0098E3C0 /* APIKeysManager.swift */; };
+		B36EE7291FEC814C0098E3C0 /* APIKeysManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6B11FEC814C0098E3C0 /* APIKeysManager.swift */; };
+		B36EE72A1FEC814C0098E3C0 /* DependencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6B21FEC814C0098E3C0 /* DependencyManager.swift */; };
+		B36EE72B1FEC814C0098E3C0 /* DependencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6B21FEC814C0098E3C0 /* DependencyManager.swift */; };
+		B36EE72C1FEC814C0098E3C0 /* PlaceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6B31FEC814C0098E3C0 /* PlaceManager.swift */; };
+		B36EE72D1FEC814C0098E3C0 /* PlaceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6B31FEC814C0098E3C0 /* PlaceManager.swift */; };
+		B36EE72E1FEC814C0098E3C0 /* RequiredDependency+Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6B41FEC814C0098E3C0 /* RequiredDependency+Manager.swift */; };
+		B36EE72F1FEC814C0098E3C0 /* RequiredDependency+Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6B41FEC814C0098E3C0 /* RequiredDependency+Manager.swift */; };
+		B36EE7301FEC814C0098E3C0 /* RequiredDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6B51FEC814C0098E3C0 /* RequiredDependency.swift */; };
+		B36EE7311FEC814C0098E3C0 /* RequiredDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6B51FEC814C0098E3C0 /* RequiredDependency.swift */; };
+		B36EE7321FEC814C0098E3C0 /* RequiresAPIKeys+Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6B61FEC814C0098E3C0 /* RequiresAPIKeys+Manager.swift */; };
+		B36EE7331FEC814C0098E3C0 /* RequiresAPIKeys+Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6B61FEC814C0098E3C0 /* RequiresAPIKeys+Manager.swift */; };
+		B36EE7341FEC814C0098E3C0 /* RequiresAPIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6B71FEC814C0098E3C0 /* RequiresAPIKeys.swift */; };
+		B36EE7351FEC814C0098E3C0 /* RequiresAPIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6B71FEC814C0098E3C0 /* RequiresAPIKeys.swift */; };
+		B36EE7361FEC814C0098E3C0 /* RequiresPlace+Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6B81FEC814C0098E3C0 /* RequiresPlace+Manager.swift */; };
+		B36EE7371FEC814C0098E3C0 /* RequiresPlace+Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6B81FEC814C0098E3C0 /* RequiresPlace+Manager.swift */; };
+		B36EE7381FEC814C0098E3C0 /* RequiresPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6B91FEC814C0098E3C0 /* RequiresPlace.swift */; };
+		B36EE7391FEC814C0098E3C0 /* RequiresPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE6B91FEC814C0098E3C0 /* RequiresPlace.swift */; };
+		B36EE73B1FEC86AA0098E3C0 /* DefaultMapPresenter+Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE73A1FEC86AA0098E3C0 /* DefaultMapPresenter+Test.swift */; };
+		B36EE73D1FEC8EF80098E3C0 /* APIKeysManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE73C1FEC8EF80098E3C0 /* APIKeysManagerTests.swift */; };
+		B36EE7401FEC98EE0098E3C0 /* PlaceManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE73E1FEC98EE0098E3C0 /* PlaceManagerTests.swift */; };
+		B36EE7411FEC98EE0098E3C0 /* DependencyManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36EE73F1FEC98EE0098E3C0 /* DependencyManagerTests.swift */; };
+		B36EE7451FEC9B7D0098E3C0 /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36EE7431FEC9B7C0098E3C0 /* Test.storyboard */; };
+		B36EE7461FEC9BCC0098E3C0 /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36EE7431FEC9B7C0098E3C0 /* Test.storyboard */; };
+		B389EEDD1FE88D19008EBCBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B389EEDC1FE88D19008EBCBB /* AppDelegate.swift */; };
+		B389EEE21FE88D19008EBCBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B389EEE01FE88D19008EBCBB /* Main.storyboard */; };
+		B389EEE41FE88D19008EBCBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B389EEE31FE88D19008EBCBB /* Assets.xcassets */; };
+		B389EEE71FE88D19008EBCBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B389EEE51FE88D19008EBCBB /* LaunchScreen.storyboard */; };
+		B389EEF21FE88D19008EBCBB /* GeoPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B389EEF11FE88D19008EBCBB /* GeoPalTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B389EEEE1FE88D19008EBCBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B389EED11FE88D19008EBCBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B389EED81FE88D19008EBCBB;
+			remoteInfo = GeoPal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D6A679E5129D2DDF74D7E9E /* Pods-GeoPalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoPalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoPalTests/Pods-GeoPalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		70112FB8CE78A195B2AC4BD6 /* Pods-GeoPalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoPalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeoPalTests/Pods-GeoPalTests.release.xcconfig"; sourceTree = "<group>"; };
+		7AC5028728E391223BAE137F /* Pods_GeoPal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoPal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36EE6721FEC814B0098E3C0 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		B36EE6781FEC814C0098E3C0 /* DefaultMapInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultMapInteractor.swift; sourceTree = "<group>"; };
+		B36EE6791FEC814C0098E3C0 /* DefaultMapPresenter+SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DefaultMapPresenter+SearchBar.swift"; sourceTree = "<group>"; };
+		B36EE67A1FEC814C0098E3C0 /* DefaultMapPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultMapPresenter.swift; sourceTree = "<group>"; };
+		B36EE6801FEC814C0098E3C0 /* DefaultMapSearchManager+UITableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DefaultMapSearchManager+UITableViewDataSource.swift"; sourceTree = "<group>"; };
+		B36EE6811FEC814C0098E3C0 /* DefaultMapSearchManager+UITableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DefaultMapSearchManager+UITableViewDelegate.swift"; sourceTree = "<group>"; };
+		B36EE6821FEC814C0098E3C0 /* DefaultMapSearchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultMapSearchManager.swift; sourceTree = "<group>"; };
+		B36EE6831FEC814C0098E3C0 /* DefaultMapViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultMapViewManager.swift; sourceTree = "<group>"; };
+		B36EE6841FEC814C0098E3C0 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		B36EE68B1FEC814C0098E3C0 /* MapInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapInteractor.swift; sourceTree = "<group>"; };
+		B36EE68C1FEC814C0098E3C0 /* MapPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
+		B36EE68D1FEC814C0098E3C0 /* MapSearchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapSearchManager.swift; sourceTree = "<group>"; };
+		B36EE68E1FEC814C0098E3C0 /* MapViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewControllerProtocol.swift; sourceTree = "<group>"; };
+		B36EE68F1FEC814C0098E3C0 /* MapViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewManager.swift; sourceTree = "<group>"; };
+		B36EE6921FEC814C0098E3C0 /* PlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
+		B36EE6951FEC814C0098E3C0 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		B36EE69A1FEC814C0098E3C0 /* PlaceEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceEntity.swift; sourceTree = "<group>"; };
+		B36EE69B1FEC814C0098E3C0 /* SimpleAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleAnnotation.swift; sourceTree = "<group>"; };
+		B36EE6A21FEC814C0098E3C0 /* BackupSandboxAPIKeysManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackupSandboxAPIKeysManager.swift; sourceTree = "<group>"; };
+		B36EE6A31FEC814C0098E3C0 /* GooglePlacesManager+GMSAutocompleteFetcherDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GooglePlacesManager+GMSAutocompleteFetcherDelegate.swift"; sourceTree = "<group>"; };
+		B36EE6A41FEC814C0098E3C0 /* GooglePlacesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlacesManager.swift; sourceTree = "<group>"; };
+		B36EE6A51FEC814C0098E3C0 /* ManualDependencyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManualDependencyManager.swift; sourceTree = "<group>"; };
+		B36EE6A61FEC814C0098E3C0 /* SandboxAPIKeysManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandboxAPIKeysManager.swift; sourceTree = "<group>"; };
+		B36EE6B11FEC814C0098E3C0 /* APIKeysManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIKeysManager.swift; sourceTree = "<group>"; };
+		B36EE6B21FEC814C0098E3C0 /* DependencyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyManager.swift; sourceTree = "<group>"; };
+		B36EE6B31FEC814C0098E3C0 /* PlaceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceManager.swift; sourceTree = "<group>"; };
+		B36EE6B41FEC814C0098E3C0 /* RequiredDependency+Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RequiredDependency+Manager.swift"; sourceTree = "<group>"; };
+		B36EE6B51FEC814C0098E3C0 /* RequiredDependency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequiredDependency.swift; sourceTree = "<group>"; };
+		B36EE6B61FEC814C0098E3C0 /* RequiresAPIKeys+Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RequiresAPIKeys+Manager.swift"; sourceTree = "<group>"; };
+		B36EE6B71FEC814C0098E3C0 /* RequiresAPIKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequiresAPIKeys.swift; sourceTree = "<group>"; };
+		B36EE6B81FEC814C0098E3C0 /* RequiresPlace+Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RequiresPlace+Manager.swift"; sourceTree = "<group>"; };
+		B36EE6B91FEC814C0098E3C0 /* RequiresPlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequiresPlace.swift; sourceTree = "<group>"; };
+		B36EE73A1FEC86AA0098E3C0 /* DefaultMapPresenter+Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DefaultMapPresenter+Test.swift"; sourceTree = "<group>"; };
+		B36EE73C1FEC8EF80098E3C0 /* APIKeysManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIKeysManagerTests.swift; sourceTree = "<group>"; };
+		B36EE73E1FEC98EE0098E3C0 /* PlaceManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceManagerTests.swift; sourceTree = "<group>"; };
+		B36EE73F1FEC98EE0098E3C0 /* DependencyManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyManagerTests.swift; sourceTree = "<group>"; };
+		B36EE7441FEC9B7C0098E3C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = GeoPal/Base.lproj/Test.storyboard; sourceTree = SOURCE_ROOT; };
+		B389EED91FE88D19008EBCBB /* GeoPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B389EEDC1FE88D19008EBCBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B389EEE11FE88D19008EBCBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B389EEE31FE88D19008EBCBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B389EEE61FE88D19008EBCBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B389EEE81FE88D19008EBCBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B389EEED1FE88D19008EBCBB /* GeoPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B389EEF11FE88D19008EBCBB /* GeoPalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoPalTests.swift; sourceTree = "<group>"; };
+		B389EEF31FE88D19008EBCBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C372B41888CE4FD6AEE3F9F7 /* Pods-GeoPal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoPal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoPal/Pods-GeoPal.debug.xcconfig"; sourceTree = "<group>"; };
+		D4DFE4F3C7430F0391B848C6 /* Pods-GeoPal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoPal.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeoPal/Pods-GeoPal.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B389EED61FE88D19008EBCBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AFE8C543D161D5D4533104 /* Pods_GeoPal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B389EEEA1FE88D19008EBCBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9483CE645E0D88526E29A7EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AC5028728E391223BAE137F /* Pods_GeoPal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B36EE6701FEC814B0098E3C0 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				B36EE6721FEC814B0098E3C0 /* HistoryViewController.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		B36EE6731FEC814C0098E3C0 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				B36EE6851FEC814C0098E3C0 /* Protocol */,
+				B36EE67B1FEC814C0098E3C0 /* Manager */,
+				B36EE6781FEC814C0098E3C0 /* DefaultMapInteractor.swift */,
+				B36EE6791FEC814C0098E3C0 /* DefaultMapPresenter+SearchBar.swift */,
+				B36EE73A1FEC86AA0098E3C0 /* DefaultMapPresenter+Test.swift */,
+				B36EE67A1FEC814C0098E3C0 /* DefaultMapPresenter.swift */,
+				B36EE6841FEC814C0098E3C0 /* MapViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		B36EE67B1FEC814C0098E3C0 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B36EE6801FEC814C0098E3C0 /* DefaultMapSearchManager+UITableViewDataSource.swift */,
+				B36EE6811FEC814C0098E3C0 /* DefaultMapSearchManager+UITableViewDelegate.swift */,
+				B36EE6821FEC814C0098E3C0 /* DefaultMapSearchManager.swift */,
+				B36EE6831FEC814C0098E3C0 /* DefaultMapViewManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		B36EE6851FEC814C0098E3C0 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B36EE68C1FEC814C0098E3C0 /* MapPresenter.swift */,
+				B36EE68B1FEC814C0098E3C0 /* MapInteractor.swift */,
+				B36EE68D1FEC814C0098E3C0 /* MapSearchManager.swift */,
+				B36EE68E1FEC814C0098E3C0 /* MapViewControllerProtocol.swift */,
+				B36EE68F1FEC814C0098E3C0 /* MapViewManager.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		B36EE6901FEC814C0098E3C0 /* Place */ = {
+			isa = PBXGroup;
+			children = (
+				B36EE6921FEC814C0098E3C0 /* PlaceViewController.swift */,
+			);
+			path = Place;
+			sourceTree = "<group>";
+		};
+		B36EE6931FEC814C0098E3C0 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				B36EE6951FEC814C0098E3C0 /* ContactViewController.swift */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		B36EE6961FEC814C0098E3C0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B36EE6A71FEC814C0098E3C0 /* Protocol */,
+				B36EE69C1FEC814C0098E3C0 /* Manager */,
+				B36EE6971FEC814C0098E3C0 /* Entity */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B36EE6971FEC814C0098E3C0 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				B36EE69A1FEC814C0098E3C0 /* PlaceEntity.swift */,
+				B36EE69B1FEC814C0098E3C0 /* SimpleAnnotation.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		B36EE69C1FEC814C0098E3C0 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B36EE6A21FEC814C0098E3C0 /* BackupSandboxAPIKeysManager.swift */,
+				B36EE6A31FEC814C0098E3C0 /* GooglePlacesManager+GMSAutocompleteFetcherDelegate.swift */,
+				B36EE6A41FEC814C0098E3C0 /* GooglePlacesManager.swift */,
+				B36EE6A51FEC814C0098E3C0 /* ManualDependencyManager.swift */,
+				B36EE6A61FEC814C0098E3C0 /* SandboxAPIKeysManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		B36EE6A71FEC814C0098E3C0 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B36EE6B11FEC814C0098E3C0 /* APIKeysManager.swift */,
+				B36EE6B21FEC814C0098E3C0 /* DependencyManager.swift */,
+				B36EE6B31FEC814C0098E3C0 /* PlaceManager.swift */,
+				B36EE6B41FEC814C0098E3C0 /* RequiredDependency+Manager.swift */,
+				B36EE6B51FEC814C0098E3C0 /* RequiredDependency.swift */,
+				B36EE6B61FEC814C0098E3C0 /* RequiresAPIKeys+Manager.swift */,
+				B36EE6B71FEC814C0098E3C0 /* RequiresAPIKeys.swift */,
+				B36EE6B81FEC814C0098E3C0 /* RequiresPlace+Manager.swift */,
+				B36EE6B91FEC814C0098E3C0 /* RequiresPlace.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		B389EED01FE88D19008EBCBB = {
+			isa = PBXGroup;
+			children = (
+				B389EEDB1FE88D19008EBCBB /* GeoPal */,
+				B389EEF01FE88D19008EBCBB /* GeoPalTests */,
+				B389EEDA1FE88D19008EBCBB /* Products */,
+				D10E141E831164CC2BFD19D0 /* Pods */,
+				9483CE645E0D88526E29A7EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B389EEDA1FE88D19008EBCBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B389EED91FE88D19008EBCBB /* GeoPal.app */,
+				B389EEED1FE88D19008EBCBB /* GeoPalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B389EEDB1FE88D19008EBCBB /* GeoPal */ = {
+			isa = PBXGroup;
+			children = (
+				B36EE6961FEC814C0098E3C0 /* Shared */,
+				B36EE6731FEC814C0098E3C0 /* Map */,
+				B36EE6931FEC814C0098E3C0 /* Contact */,
+				B36EE6701FEC814B0098E3C0 /* History */,
+				B36EE6901FEC814C0098E3C0 /* Place */,
+				B389EEDC1FE88D19008EBCBB /* AppDelegate.swift */,
+				B389EEE01FE88D19008EBCBB /* Main.storyboard */,
+				B389EEE31FE88D19008EBCBB /* Assets.xcassets */,
+				B389EEE51FE88D19008EBCBB /* LaunchScreen.storyboard */,
+				B389EEE81FE88D19008EBCBB /* Info.plist */,
+			);
+			path = GeoPal;
+			sourceTree = "<group>";
+		};
+		B389EEF01FE88D19008EBCBB /* GeoPalTests */ = {
+			isa = PBXGroup;
+			children = (
+				B36EE7431FEC9B7C0098E3C0 /* Test.storyboard */,
+				B389EEF11FE88D19008EBCBB /* GeoPalTests.swift */,
+				B36EE73C1FEC8EF80098E3C0 /* APIKeysManagerTests.swift */,
+				B36EE73F1FEC98EE0098E3C0 /* DependencyManagerTests.swift */,
+				B36EE73E1FEC98EE0098E3C0 /* PlaceManagerTests.swift */,
+				B389EEF31FE88D19008EBCBB /* Info.plist */,
+			);
+			path = GeoPalTests;
+			sourceTree = "<group>";
+		};
+		D10E141E831164CC2BFD19D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C372B41888CE4FD6AEE3F9F7 /* Pods-GeoPal.debug.xcconfig */,
+				D4DFE4F3C7430F0391B848C6 /* Pods-GeoPal.release.xcconfig */,
+				6D6A679E5129D2DDF74D7E9E /* Pods-GeoPalTests.debug.xcconfig */,
+				70112FB8CE78A195B2AC4BD6 /* Pods-GeoPalTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B389EED81FE88D19008EBCBB /* GeoPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B389EEF61FE88D19008EBCBB /* Build configuration list for PBXNativeTarget "GeoPal" */;
+			buildPhases = (
+				C292D7825E78394894CC8D9B /* [CP] Check Pods Manifest.lock */,
+				B389EED51FE88D19008EBCBB /* Sources */,
+				B389EED61FE88D19008EBCBB /* Frameworks */,
+				B389EED71FE88D19008EBCBB /* Resources */,
+				1BE1047BD53B4B869550B412 /* [CP] Embed Pods Frameworks */,
+				6DAFDED3B4646107FC6B7EEA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoPal;
+			productName = GeoPal;
+			productReference = B389EED91FE88D19008EBCBB /* GeoPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B389EEEC1FE88D19008EBCBB /* GeoPalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B389EEF91FE88D19008EBCBB /* Build configuration list for PBXNativeTarget "GeoPalTests" */;
+			buildPhases = (
+				F55BCD48787F8E0A33D7FAD0 /* [CP] Check Pods Manifest.lock */,
+				B389EEE91FE88D19008EBCBB /* Sources */,
+				B389EEEA1FE88D19008EBCBB /* Frameworks */,
+				B389EEEB1FE88D19008EBCBB /* Resources */,
+				FCD295B63872526A5E2525F0 /* [CP] Embed Pods Frameworks */,
+				E8B88490D47983D4D672D454 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B389EEEF1FE88D19008EBCBB /* PBXTargetDependency */,
+			);
+			name = GeoPalTests;
+			productName = GeoPalTests;
+			productReference = B389EEED1FE88D19008EBCBB /* GeoPalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B389EED11FE88D19008EBCBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Bimo.live;
+				TargetAttributes = {
+					B389EED81FE88D19008EBCBB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B389EEEC1FE88D19008EBCBB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B389EED81FE88D19008EBCBB;
+					};
+				};
+			};
+			buildConfigurationList = B389EED41FE88D19008EBCBB /* Build configuration list for PBXProject "GeoPal" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B389EED01FE88D19008EBCBB;
+			productRefGroup = B389EEDA1FE88D19008EBCBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B389EED81FE88D19008EBCBB /* GeoPal */,
+				B389EEEC1FE88D19008EBCBB /* GeoPalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B389EED71FE88D19008EBCBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B389EEE71FE88D19008EBCBB /* LaunchScreen.storyboard in Resources */,
+				B389EEE41FE88D19008EBCBB /* Assets.xcassets in Resources */,
+				B36EE7461FEC9BCC0098E3C0 /* Test.storyboard in Resources */,
+				B389EEE21FE88D19008EBCBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B389EEEB1FE88D19008EBCBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36EE7451FEC9B7D0098E3C0 /* Test.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BE1047BD53B4B869550B412 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoPal/Pods-GeoPal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DAFDED3B4646107FC6B7EEA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoPal/Pods-GeoPal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C292D7825E78394894CC8D9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E8B88490D47983D4D672D454 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoPalTests/Pods-GeoPalTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F55BCD48787F8E0A33D7FAD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FCD295B63872526A5E2525F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoPalTests/Pods-GeoPalTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B389EED51FE88D19008EBCBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36EE7281FEC814C0098E3C0 /* APIKeysManager.swift in Sources */,
+				B36EE6D61FEC814C0098E3C0 /* DefaultMapSearchManager+UITableViewDelegate.swift in Sources */,
+				B36EE7381FEC814C0098E3C0 /* RequiresPlace.swift in Sources */,
+				B36EE6EC1FEC814C0098E3C0 /* MapSearchManager.swift in Sources */,
+				B389EEDD1FE88D19008EBCBB /* AppDelegate.swift in Sources */,
+				B36EE6F81FEC814C0098E3C0 /* ContactViewController.swift in Sources */,
+				B36EE72C1FEC814C0098E3C0 /* PlaceManager.swift in Sources */,
+				B36EE6BC1FEC814C0098E3C0 /* HistoryViewController.swift in Sources */,
+				B36EE6DC1FEC814C0098E3C0 /* MapViewController.swift in Sources */,
+				B36EE7141FEC814C0098E3C0 /* SandboxAPIKeysManager.swift in Sources */,
+				B36EE6FE1FEC814C0098E3C0 /* PlaceEntity.swift in Sources */,
+				B36EE6F01FEC814C0098E3C0 /* MapViewManager.swift in Sources */,
+				B36EE7121FEC814C0098E3C0 /* ManualDependencyManager.swift in Sources */,
+				B36EE6C61FEC814C0098E3C0 /* DefaultMapInteractor.swift in Sources */,
+				B36EE6D81FEC814C0098E3C0 /* DefaultMapSearchManager.swift in Sources */,
+				B36EE72E1FEC814C0098E3C0 /* RequiredDependency+Manager.swift in Sources */,
+				B36EE70C1FEC814C0098E3C0 /* BackupSandboxAPIKeysManager.swift in Sources */,
+				B36EE6F41FEC814C0098E3C0 /* PlaceViewController.swift in Sources */,
+				B36EE7361FEC814C0098E3C0 /* RequiresPlace+Manager.swift in Sources */,
+				B36EE7101FEC814C0098E3C0 /* GooglePlacesManager.swift in Sources */,
+				B36EE7321FEC814C0098E3C0 /* RequiresAPIKeys+Manager.swift in Sources */,
+				B36EE6E81FEC814C0098E3C0 /* MapInteractor.swift in Sources */,
+				B36EE7301FEC814C0098E3C0 /* RequiredDependency.swift in Sources */,
+				B36EE7341FEC814C0098E3C0 /* RequiresAPIKeys.swift in Sources */,
+				B36EE7001FEC814C0098E3C0 /* SimpleAnnotation.swift in Sources */,
+				B36EE6D41FEC814C0098E3C0 /* DefaultMapSearchManager+UITableViewDataSource.swift in Sources */,
+				B36EE6C81FEC814C0098E3C0 /* DefaultMapPresenter+SearchBar.swift in Sources */,
+				B36EE6CA1FEC814C0098E3C0 /* DefaultMapPresenter.swift in Sources */,
+				B36EE6DA1FEC814C0098E3C0 /* DefaultMapViewManager.swift in Sources */,
+				B36EE6EA1FEC814C0098E3C0 /* MapPresenter.swift in Sources */,
+				B36EE6EE1FEC814C0098E3C0 /* MapViewControllerProtocol.swift in Sources */,
+				B36EE72A1FEC814C0098E3C0 /* DependencyManager.swift in Sources */,
+				B36EE70E1FEC814C0098E3C0 /* GooglePlacesManager+GMSAutocompleteFetcherDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B389EEE91FE88D19008EBCBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36EE7291FEC814C0098E3C0 /* APIKeysManager.swift in Sources */,
+				B36EE6D71FEC814C0098E3C0 /* DefaultMapSearchManager+UITableViewDelegate.swift in Sources */,
+				B36EE73D1FEC8EF80098E3C0 /* APIKeysManagerTests.swift in Sources */,
+				B36EE7391FEC814C0098E3C0 /* RequiresPlace.swift in Sources */,
+				B36EE6ED1FEC814C0098E3C0 /* MapSearchManager.swift in Sources */,
+				B389EEF21FE88D19008EBCBB /* GeoPalTests.swift in Sources */,
+				B36EE6F91FEC814C0098E3C0 /* ContactViewController.swift in Sources */,
+				B36EE72D1FEC814C0098E3C0 /* PlaceManager.swift in Sources */,
+				B36EE6BD1FEC814C0098E3C0 /* HistoryViewController.swift in Sources */,
+				B36EE6DD1FEC814C0098E3C0 /* MapViewController.swift in Sources */,
+				B36EE7151FEC814C0098E3C0 /* SandboxAPIKeysManager.swift in Sources */,
+				B36EE6FF1FEC814C0098E3C0 /* PlaceEntity.swift in Sources */,
+				B36EE6F11FEC814C0098E3C0 /* MapViewManager.swift in Sources */,
+				B36EE7131FEC814C0098E3C0 /* ManualDependencyManager.swift in Sources */,
+				B36EE6C71FEC814C0098E3C0 /* DefaultMapInteractor.swift in Sources */,
+				B36EE6D91FEC814C0098E3C0 /* DefaultMapSearchManager.swift in Sources */,
+				B36EE7411FEC98EE0098E3C0 /* DependencyManagerTests.swift in Sources */,
+				B36EE72F1FEC814C0098E3C0 /* RequiredDependency+Manager.swift in Sources */,
+				B36EE70D1FEC814C0098E3C0 /* BackupSandboxAPIKeysManager.swift in Sources */,
+				B36EE6F51FEC814C0098E3C0 /* PlaceViewController.swift in Sources */,
+				B36EE7371FEC814C0098E3C0 /* RequiresPlace+Manager.swift in Sources */,
+				B36EE7111FEC814C0098E3C0 /* GooglePlacesManager.swift in Sources */,
+				B36EE7401FEC98EE0098E3C0 /* PlaceManagerTests.swift in Sources */,
+				B36EE7331FEC814C0098E3C0 /* RequiresAPIKeys+Manager.swift in Sources */,
+				B36EE6E91FEC814C0098E3C0 /* MapInteractor.swift in Sources */,
+				B36EE7311FEC814C0098E3C0 /* RequiredDependency.swift in Sources */,
+				B36EE7351FEC814C0098E3C0 /* RequiresAPIKeys.swift in Sources */,
+				B36EE73B1FEC86AA0098E3C0 /* DefaultMapPresenter+Test.swift in Sources */,
+				B36EE7011FEC814C0098E3C0 /* SimpleAnnotation.swift in Sources */,
+				B36EE6D51FEC814C0098E3C0 /* DefaultMapSearchManager+UITableViewDataSource.swift in Sources */,
+				B36EE6CB1FEC814C0098E3C0 /* DefaultMapPresenter.swift in Sources */,
+				B36EE6DB1FEC814C0098E3C0 /* DefaultMapViewManager.swift in Sources */,
+				B36EE6EB1FEC814C0098E3C0 /* MapPresenter.swift in Sources */,
+				B36EE6EF1FEC814C0098E3C0 /* MapViewControllerProtocol.swift in Sources */,
+				B36EE72B1FEC814C0098E3C0 /* DependencyManager.swift in Sources */,
+				B36EE70F1FEC814C0098E3C0 /* GooglePlacesManager+GMSAutocompleteFetcherDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B389EEEF1FE88D19008EBCBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B389EED81FE88D19008EBCBB /* GeoPal */;
+			targetProxy = B389EEEE1FE88D19008EBCBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B36EE7431FEC9B7C0098E3C0 /* Test.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36EE7441FEC9B7C0098E3C0 /* Base */,
+			);
+			name = Test.storyboard;
+			sourceTree = "<group>";
+		};
+		B389EEE01FE88D19008EBCBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B389EEE11FE88D19008EBCBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B389EEE51FE88D19008EBCBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B389EEE61FE88D19008EBCBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B389EEF41FE88D19008EBCBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B389EEF51FE88D19008EBCBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B389EEF71FE88D19008EBCBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C372B41888CE4FD6AEE3F9F7 /* Pods-GeoPal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AKGR9TT483;
+				INFOPLIST_FILE = GeoPal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = live.bimo.GeoPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B389EEF81FE88D19008EBCBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4DFE4F3C7430F0391B848C6 /* Pods-GeoPal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AKGR9TT483;
+				INFOPLIST_FILE = GeoPal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = live.bimo.GeoPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B389EEFA1FE88D19008EBCBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D6A679E5129D2DDF74D7E9E /* Pods-GeoPalTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AKGR9TT483;
+				INFOPLIST_FILE = GeoPalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = live.bimo.GeoPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoPal.app/GeoPal";
+			};
+			name = Debug;
+		};
+		B389EEFB1FE88D19008EBCBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70112FB8CE78A195B2AC4BD6 /* Pods-GeoPalTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AKGR9TT483;
+				INFOPLIST_FILE = GeoPalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = live.bimo.GeoPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoPal.app/GeoPal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B389EED41FE88D19008EBCBB /* Build configuration list for PBXProject "GeoPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B389EEF41FE88D19008EBCBB /* Debug */,
+				B389EEF51FE88D19008EBCBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B389EEF61FE88D19008EBCBB /* Build configuration list for PBXNativeTarget "GeoPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B389EEF71FE88D19008EBCBB /* Debug */,
+				B389EEF81FE88D19008EBCBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B389EEF91FE88D19008EBCBB /* Build configuration list for PBXNativeTarget "GeoPalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B389EEFA1FE88D19008EBCBB /* Debug */,
+				B389EEFB1FE88D19008EBCBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B389EED11FE88D19008EBCBB /* Project object */;
+}

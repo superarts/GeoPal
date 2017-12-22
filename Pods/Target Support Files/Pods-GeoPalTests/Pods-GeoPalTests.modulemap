@@ -1,0 +1,6 @@
+framework module Pods_GeoPalTests {
+  umbrella header "Pods-GeoPalTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
